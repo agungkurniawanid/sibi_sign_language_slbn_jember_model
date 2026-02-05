@@ -11,33 +11,37 @@ import numpy as np
 DATA_PATH = os.path.join('DatasetSibiKeypoints') 
 
 # 2. Daftar Kata / Label SIBI
-actions = np.array([
-    "Saya",
-    "Makan",
-    "Buah",
-    "Agar",
-    "Kuat",
-    "Sayur",
-    "Ibu",
-    "An",      # Cek kembali apakah ini typo "Dan"?
-    "Sabar",
-    "Siap",
-    "Kan",     # Cek kembali apakah ini typo "Ikan"/"Akan"?
-    "Kue",
-    "Untuk",
-    "Tamu",
-    "Cerita",
-    "Tentang",
-    "Malam",
-    "Keluarga",
-    "Bapak",
-    "Siram",
-    "Harus",
-    "Rajin",
-    "Kakak",
-    "Obat",
-    "Gelas"
-])
+# actions = np.array([
+#     "Saya",
+#     "Buah",
+#     "Makan",
+#     "Agar",
+#     "Kuat",
+#     "Sayur",
+#     "Ibu",
+#     "An",      # Cek kembali apakah ini typo "Dan"?
+#     "Sabar",
+#     "Siap",
+#     "Kan",     # Cek kembali apakah ini typo "Ikan"/"Akan"?
+#     "Kue",
+#     "Untuk",
+#     "Tamu",
+#     "Cerita",
+#     "Tentang",
+#     "Malam",
+#     "Keluarga",
+#     "Bapak",
+#     "Siram",
+#     "Harus",
+#     "Rajin",
+#     "Kakak",
+#     "Obat",
+#     "Gelas"
+# ])
+
+# Hanya masukkan kata yang SUDAH direkam dan punya folder (TESTING)
+actions = np.array(['Saya', 'Buah', 'Makan'])
+
 
 # 3. Jumlah Video & Frame
 # Sesuai request Anda: 100 video per kata
